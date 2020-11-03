@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server-Side Rendering for Web-Based Multiplayer Games</title>
+    <link rel="stylesheet" href="../libs/reveal.js/reset.css">
+    <link rel="stylesheet" href="../libs/reveal.js/reveal.css">
+    <link rel="stylesheet" href="../libs/reveal.js/theme/black.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h2>Server-Side Rendering for Web-Based Multiplayer Games</h2>
+            </section>
+            <section>
+                <h3>What's Rendering?!</h3>
+                <h3 class="fragment">Performance in Games?!</h3>
+                <h3 class="fragment">Cheating in Games?!</h3>
+            </section>
+            <section>
+                <h3>Web-Based Games</h3>
+                <ul>
+                    <li class="fragment">HTML5 Canvas</li>
+                    <li class="fragment">Lots of Code</li>
+                    <li class="fragment">Lots of Images/Sprites</li>
+                </ul>
+            </section>
+            <section>
+                <h3>I'll Be Talking About...</h3>
+                <ul>
+                    <li>Canvas</li>
+                    <li>Performance</li>
+                    <li>Cheating</li>
+                </ul>
+            </section>
+            <section>
+                <h6>Hi! I am...</h6>
+                <h1>Ibrokhim Shokirov</h1>
+                <h4>Full-Stack Developer</h4>
+            </section>
+            <section>
+                <h1>Canvas</h1>
+            </section>
+            <section>
+                <embed src="https://lucky-bug.github.io/fluidsim/" type="text/html" width="800" height="500">
+            </section>
+            <section>
+                <h1>Performance</h1>
+            </section>
+            <section>
+                <embed src="https://lucky-bug.github.io/fluidsim/" type="text/html" width="800" height="500">
+            </section>
+            <section>
+                <h1>Cheating</h1>
+            </section>
+            <section>
+                <embed src="https://lucky-bug.github.io/fluidsim/" type="text/html" width="800" height="500">
+            </section>
+            <section>
+                <h3>First: Event Collection</h3>
+                <ul>
+                    <li class="fragment">Collect events like mouse moves/clicks, key presses/releases, etc.</li>
+                    <li class="fragment">Prepare and send collected events to server.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Second: Event Handling</h3>
+                <ul>
+                    <li class="fragment">Update game/players based on the received events.</li>
+                    <li class="fragment">Render game on server.</li>
+                    <li class="fragment">Stream back rendered frames as video frames.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Third: Presentation</h3>
+                <ul>
+                    <li class="fragment">Design the view where game will be presented.</li>
+                    <li class="fragment">Embed receiving video frames in view.</li>
+                    <li class="fragment">Keep developing the game.</li>
+                </ul>
+            </section>
+            <section>
+                <h1>Let's Summarize!</h1>
+            </section>
+            <section>
+                <ul>
+                    <li>Better performance comes in cost!</li>
+                    <li class="fragment">Continuously updating hardware isn't cheap!</li>
+                    <li class="fragment">Cheaters are annoying!</li>
+                    <li class="fragment">We have the power of Internet and powerful !</li>
+                    <li class="fragment">Let's benefit from it!</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="../libs/reveal.js/reveal.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ ]
+        });
+    </script>
+</body>
+</html>
